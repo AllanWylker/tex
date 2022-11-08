@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Now!!!</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/tela01.js" async></script>
+</head>
+<body>
+    <header></header>
+    <main>
+        <div class="boxUser">
+            <span id="user">SPAN</span>
+        </div>
+        <div>
+            <!-- Tela Inicial -->
+            <div id="telaInicial" class="init">
+                <div class="d-flex">
+                    <img src="./images/question.png" alt="question">
+                    <img src="./images/question.png" alt="question">
+                    <img src="./images/question.png" alt="question">
+                </div>
+                <div class="mt-5">
+                    <input type="text" id="nome" placeholder="Digite seu nome aqui :)">
+                    <button id="btnJogar" class="pointer">I N I C I A R</button>
+                </div>
+            </div>
+            <!-- Fim Tela Inicial -->
+
+            <!-- Tela Jogo -->
+            <div id="telaJogo" class="init hide">
+               
+                    <div class="d-flex pontos">
+                        <p>Pontos: <span id="pontuacao"></span></p>
+                        <p>Resultado Anterior: <span id="pontuacao2"></span></p>
+                    </div>
+                    <div id="numbers" class="d-flex">
+                            <img src="./images/question.png" alt="question">
+                            <img src="./images/question.png" alt="question">
+                            <img src="./images/question.png" alt="question">    
+                     </div>
+                   <button id="btnPlay">J O G A R</button>
+               
+            </div>
+                    <!-- Fim Tela Jogo -->
+
+            <!-- Tela Winner - Looser -->
+            <div id="winLooser" class="hide">
+                <img src="./images/looser.jpg" alt="winner-looser">
+            </div>
+            <!-- Fim Tela - Winner - Looser -->
+        </div>
+    </main>
+</body>
+</html>
