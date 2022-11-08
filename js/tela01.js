@@ -40,8 +40,6 @@ function sortear ()
     })
     })
 
-    console.log(combo[0] == combo[1] && combo[0] == combo[2] && combo[1] == combo[2])
-
     if (combo[0] == combo[1] && combo[0] == combo[2] && combo[1] == combo[2]){
         pontos = pontos+1;
     }
